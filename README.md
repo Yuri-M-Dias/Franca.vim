@@ -8,12 +8,17 @@ Object is to support autocomplete and syntax highlight for FIDL files, both *.fi
 
 # Install
 
+## Vim-Plug
+
 ```vim
-Plug 'yuri-m-dias/Franca.vim'
+Plug 'Yuri-M-Dias/Franca.vim'
 ```
 
 ## Original
 
+```bash
 $ cp -rf fidl.vim ~/.vim/syntax/
 $ mkdir ~/.vim/ftdetect
 $ cp -rf ftdetect ~/.vim/ftdetect/fidl.vim
+```
+
